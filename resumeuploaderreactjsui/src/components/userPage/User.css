@@ -1,0 +1,31 @@
+.userButton{
+    display: flex;
+    float: right;
+    margin: 15px;
+    position: absolute;
+    left: 70vw;
+    bottom: 0px;
+    z-index: 0;
+}
+.userButton Button {
+    background-color:rgb(173, 173, 173);
+    border-radius: 15px 15px;
+    border-color: black;
+    height: 40px;
+    width: 130px;
+    margin: 20px;
+}
+.userButton .userDeleteButton{
+    background-color: rgb(245, 114, 114);
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.userCard{
+    width: 60vw;
+    height: 80vh;
+    margin-top: 3vh;
+    border: 1px solid black;
+}

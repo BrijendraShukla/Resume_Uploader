@@ -1,0 +1,145 @@
+.formBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(../../../public/reactjs\ background\ tree.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(100% - 8vh);
+    margin: 0px;
+}
+
+.form{
+    width: 500px;
+    height: 590px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 100px black;
+    border-radius: 50px 5px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 50px;
+}
+.box{
+    color: white;
+    font-size: 20px;
+}
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+}
+input{
+    width: 250px;
+    height: 25px;
+    border: 1px solid rgb(242, 255, 0);
+    border-radius: 50px 5px;
+    margin: 2px;
+    padding-left: 15px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+span{
+    margin-left: 15px;
+}
+.inputDOB > input{
+ width: 102px;
+ padding-right: 15px;
+ font-size: 13px;
+}
+.inputDOB > span{
+    margin: 5px;
+    margin-left: 15px;
+    padding: 5px;
+}
+.updoadButton{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+    padding-top: 1px; 
+}
+.updoadButton > label{
+    background-color: rgb(0, 213, 255);
+    border-radius: 50px 5px;
+    border: 2px solid red;
+    border-style:groove;
+    margin-left: 15px;
+    padding:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    cursor:grab;
+}
+.updoadButton > input {
+    display: none;
+}
+.submitButton{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+}
+
+button{
+    background-color: rgb(0, 255, 98);
+    border-radius: 20px 20px;
+    border: 2px solid red;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.gender{
+    display:flex;
+    flex-direction: row;
+}
+.gender > span{
+    margin-right: 20px;
+}
+.radio{
+    display: flex;
+    width: 90px;
+    justify-content:space-evenly;
+
+}
+
+.male{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+}
+.female{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+}
+.others{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    margin-left: 15px;
+}
+select{
+    width:150px;
+    height: 25px;
+    border: 1px solid rgb(242, 255, 0);
+    border-radius: 5px 5px;
+    /* margin: 2px; */
+    /* padding-left: 15px; */
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
